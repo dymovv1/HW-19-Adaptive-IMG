@@ -1,0 +1,62 @@
+$main-c-bl:#000000;
+$main-c-gray:#565656;
+$font-red-hat:'Red Hat Display';
+$font-lato:'Lato';
+$font-sz-28: 28px;
+$font-sz-19: 19px;
+$font-sz-16: 16px;
+$font-sz-48: 48px;
+
+@mixin subtitle {
+    font-family: $font-red-hat;
+    font-weight: 600;
+    font-size: 28px;
+    color: $main-c-bl;
+    line-height: 46.48px;
+    letter-spacing: 2.8px;
+}
+
+@mixin text {
+    font-family: $font-lato;
+    font-weight: 400;
+    font-size: $font-sz-19;
+    line-height: 32px;
+    color: $main-c-gray;
+    letter-spacing: 1px;
+}
+
+.mb_50 {
+    margin-bottom: 50px;
+}
+
+.pb_90 {
+    padding-bottom: 90px;
+}
+
+.mb_42 {
+    margin-bottom: 42px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mb_15 {
+    margin-bottom: 15px;
+}
+
+.mb_44 {
+    margin-bottom: 44px;
+}
+
+.pb_93 {
+    padding-bottom: 93px;
+}
+
+.mb_14 {
+    margin-bottom: 14px;
+}
+
+.pt_20 {
+    padding-top: 20px;
+}

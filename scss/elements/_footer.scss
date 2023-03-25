@@ -1,0 +1,62 @@
+.footer {
+   background: #F4F4F4;
+   width: 100%;
+   padding-top: 70px;
+   padding-bottom: 70px;
+
+}
+
+.quastions-title {
+    font-weight: 400;
+    margin-bottom: 25px;
+    letter-spacing: 2.4px;
+}
+
+.footer-quastions {
+    display: block;
+}
+
+.quastions-text {
+    font-family: $font-lato;
+    color: $main-c-bl;
+    font-weight: 400;
+    font-size: $font-sz-16;
+    line-height: 26.56px;
+    letter-spacing: 1.6px;
+}
+
+.footer-body {
+    display: flex;
+}
+
+.footer-copyright {
+    margin-left: 56px;
+    display: flex;
+    position: relative;
+    top: 16px;
+    align-items: end;
+}
+
+.copyraight-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.92px;
+    font-family: $font-lato;
+    letter-spacing: 1.2px;
+    position: relative;
+    top: 27px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 23px;
+    max-width: 270px;
+    margin-left: 159px;
+    align-items: center;
+}
+
+.list-item {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #565656;
+}

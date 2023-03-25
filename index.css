@@ -1,0 +1,184 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: top;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mb_50 {
+  margin-bottom: 50px;
+}
+
+.pb_90 {
+  padding-bottom: 90px;
+}
+
+.mb_42 {
+  margin-bottom: 42px;
+}
+
+.mb_20 {
+  margin-bottom: 20px;
+}
+
+.mb_15 {
+  margin-bottom: 15px;
+}
+
+.mb_44 {
+  margin-bottom: 44px;
+}
+
+.pb_93 {
+  padding-bottom: 93px;
+}
+
+.mb_14 {
+  margin-bottom: 14px;
+}
+
+.pt_20 {
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    max-width: 720px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0% auto;
+  }
+}
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0% auto;
+  }
+}
+.container {
+  max-width: 1190px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0% auto;
+}
+
+.header {
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.header-text {
+  font-family: "Lato";
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 8px;
+}
+
+.title {
+  font-family: "Red Hat Display";
+  font-family: 600;
+  line-height: 64px;
+  font-size: 48px;
+  margin-bottom: 54px;
+  letter-spacing: 1.3px;
+}
+
+.fashion {
+  padding-bottom: 90px;
+}
+
+.subtitle {
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  font-size: 28px;
+  color: #000000;
+  line-height: 46.48px;
+  letter-spacing: 2.8px;
+}
+
+.text {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  color: #565656;
+  letter-spacing: 1px;
+}
+
+.project-text {
+  max-width: 570px;
+}
+
+.footer {
+  background: #F4F4F4;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.quastions-title {
+  font-weight: 400;
+  margin-bottom: 25px;
+  letter-spacing: 2.4px;
+}
+
+.footer-quastions {
+  display: block;
+}
+
+.quastions-text {
+  font-family: "Lato";
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.56px;
+  letter-spacing: 1.6px;
+}
+
+.footer-body {
+  display: flex;
+}
+
+.footer-copyright {
+  margin-left: 56px;
+  display: flex;
+  position: relative;
+  top: 16px;
+  align-items: end;
+}
+
+.copyraight-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.92px;
+  font-family: "Lato";
+  letter-spacing: 1.2px;
+  position: relative;
+  top: 27px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 23px;
+  max-width: 270px;
+  margin-left: 159px;
+  align-items: center;
+}
+
+.list-item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #565656;
+}/*# sourceMappingURL=index.css.map */

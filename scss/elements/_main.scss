@@ -1,0 +1,24 @@
+.title { 
+    font-family: $font-red-hat;
+    font-family: 600;
+    line-height: 64px;
+    font-size: $font-sz-48;
+    margin-bottom: 54px;
+    letter-spacing: 1.3px;
+}
+
+.fashion {
+    padding-bottom: 90px;
+}
+
+.subtitle {
+    @include subtitle
+}
+
+.text {
+    @include text
+}
+
+.project-text {
+    max-width: 570px;
+}
