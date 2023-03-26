@@ -27,6 +27,7 @@
 
 .footer-body {
     display: flex;
+    justify-content: center;
 }
 
 .footer-copyright {
@@ -38,6 +39,7 @@
 }
 
 .copyraight-text {
+    white-space: nowrap;
     font-size: 12px;
     font-weight: 400;
     line-height: 19.92px;
@@ -51,7 +53,7 @@
     display: flex;
     gap: 23px;
     max-width: 270px;
-    margin-left: 159px;
+    margin-left: 165px;
     align-items: center;
 }
 
@@ -59,4 +61,80 @@
     width: 50px;
     height: 50px;
     border: 1px solid #565656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
 }
+
+.list-item {
+    fill: #565656;
+  }
+  
+  .list-item:hover {
+    background-color: #565656;
+  }
+  
+  .list-item:hover svg {
+    fill: white;
+  }
+
+  @media screen and (max-width: 1010px){
+    .footer-body {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+  }
+
+  @media screen and (max-width: 1010px) {
+    .footer-copyright {
+        position: static;
+        top: 0;
+        margin-left: 0%;
+        order: 2;
+    }
+  }
+
+  
+  @media screen and (max-width: 1010px) {
+    .footer-list {
+    margin-right: 0%;
+    margin-left: 0%;
+    order: 1;
+    }
+
+    .copyraight-text {
+        position: static;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .quastions-title {
+        font-size: 32px;
+    
+    }
+  }
+
+  
+  @media screen and (max-width: 500px) {
+    .title {
+        font-size: 40px;
+        text-align: center;
+    
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    body {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 30px;
+        white-space: nowrap;
+    }
+  }
